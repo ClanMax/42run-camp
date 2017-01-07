@@ -17,7 +17,7 @@
                 <h1 class="description_h1">Сборы в Турции с опытным тренером</h1>
                 <h2 class="description_date">Со 2 по 16 февраля 2017 года</h2>
                 <p class="description_about">Турция - идеальное место для февральских сборов всего в 3 часах лета от Москвы, в то время как в России ещё много снега и холодно, здесь есть возможность бегать по грунту с хорошей компанией.</p>
-                <buttom class="block1_btn btn">Забронировать место</buttom>
+                <a href="#popup1" class="block1_btn btn">Забронировать место</a>
             </div> 
             <div class="block1_img"></div>
         </div>
@@ -77,7 +77,7 @@
             <h3 class="block3_h3">Олег Григорьев</h3>
             <img src="images/img/oleg.png" alt="Олег Григорьев" width="156" height="149" class="photo">
             <p class="block3_text">Основатель и главный тренер бегового клуба 42run.ru. Тренерский стаж 7 лет. Сертифицированный тренер adidas coach league. Является действующим спортсменом, который вместе с вами будет вести подготовку к летнему сезону.</p>
-            <buttom class="block3_btn btn">Записаться сейчас</buttom>
+            <a href="#popup1" class="block3_btn btn">Записаться сейчас</a>
          </div>        
         </div>
     </div>
@@ -118,19 +118,32 @@
         </div>
         <ul class="footer_soc">
             <li class="footer_li"><a href="http://42run.ru" class="soc">42run.ru</a></li>
-            <li class="footer_li"><a href="http://42run.ru" class="soc" title="Наш Вконтакте">Vk</a></li>
-            <li class="footer_li"><a href="http://42run.ru" class="soc 42run" title="Наш Инстаграм">Instagram</a></li>
+            <li class="footer_li"><a href="https://vk.com/42run" class="soc" title="Наш Вконтакте">Vk</a></li>
+            <li class="footer_li"><a href="http://instagram.com/oleg.42run.ru" class="soc 42run" title="Наш Инстаграм">Instagram</a></li>
         </ul>
        </div>
         
     </footer>
     
+    
+    <!-- pupup -->
+    <div id="popup1" class="overlay">
+	<div class="popup">
+		<h1 class="description_h1">Забронировать место</h1>
+		<a class="close" href="#">&times;</a>
+		<div class="form">
+		    <input type="text" placeholder="Введите номер телефона">
+		    <input type="text" placeholder="Введите вашу почту">
+		    <button class="btn popup_btn">Отправить</button>
+		</div>
+	</div>
+</div>
 </body>
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
 
-<!-- VK Widget -->
+<!-- VK Widget 
 <div id="vk_community_messages"></div>
 <script type="text/javascript">
-VK.Widgets.CommunityMessages("vk_community_messages", 95084287, {expanded: "1",disableExpandChatSound: "1",disableButtonTooltip: "1"});
+VK.Widgets.CommunityMessages("vk_community_messages", 95084287, {expanded: "1",disableExpandChatSound: "1",disableButtonTooltip: "1"}); -->
 </script>
 </html>
