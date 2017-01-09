@@ -132,18 +132,46 @@
 		<h1 class="description_h1">Забронировать место</h1>
 		<a class="close" href="#">&times;</a>
 		<div class="form">
-		    <input type="text" placeholder="Введите номер телефона">
-		    <input type="text" placeholder="Введите вашу почту">
-		    <button class="btn popup_btn">Отправить</button>
+            <label for="name">Ваше имя</label>
+		    <input type="text" placeholder="Введите ваше имя" id="name">
+		    <label for="phone">Ваш телефон</label>
+		    <input type="text" placeholder="Введите ваш телефон" id="phone">
+            <button type="submit" class="btn popup_btn">Отправить</button>
 		</div>
 	</div>
 </div>
 </body>
-<script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
-
-<!-- VK Widget 
-<div id="vk_community_messages"></div>
+<!-- Yandex.Metrika counter -->
 <script type="text/javascript">
-VK.Widgets.CommunityMessages("vk_community_messages", 95084287, {expanded: "1",disableExpandChatSound: "1",disableButtonTooltip: "1"}); -->
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter42016229 = new Ya.Metrika({
+                    id:42016229,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/42016229" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTE1MTgyO2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0c19hdXRvLmpzIixpbml0X2xzdGF0cyl9O2xvYWRzY3JpcHQoImpxdWVyeS0xLjEwLjIubWluLmpzIixqcXVlcnlfbHN0YXRzKQ=="></script></noindex>
+
 </script>
 </html>

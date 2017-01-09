@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: arimo, arial, sans-serif;
     font-size: 14px;
@@ -358,6 +362,26 @@ img {
 .popup .content {
   max-height: 30%;
   overflow: auto;
+}
+
+label {
+    display: block;
+}
+
+.popup_btn {
+    display: block;
+    text-decoration: none;
+}
+
+.form {
+    & input[type="text"] {
+        padding: 5px;
+        margin: 5px;
+        width: 70%;
+        border: 1px solid #757e8e;
+        border-radius: 5px;
+        outline: none;
+    }
 }
 
 @media screen and (max-width: 700px){
